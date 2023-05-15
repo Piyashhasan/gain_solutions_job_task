@@ -1,0 +1,39 @@
+.post_upload_time img {
+  width: 5.5rem;
+  height: 4.2rem;
+  border-radius: 0.5rem;
+}
+.user_name .lock_icon {
+  width: 2.5rem;
+  height: 2.6rem;
+  border-radius: 50%;
+  background-color: #f2f4f9;
+  color: #2563eb;
+  text-align: center;
+}
+.user_name .bag_icon span {
+  cursor: pointer;
+}
+.post_upload_time h5 {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin: 0 0 0;
+  color: #666666;
+}
+.post_upload_time small {
+  font-size: 1.1rem;
+  font-weight: 500;
+  color: #666666;
+  line-height: 1.3rem;
+}
+
+/* media query */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .post_upload_time h5 {
+    font-size: 1.2rem;
+  }
+  .post_upload_time small {
+    font-size: 0.9rem;
+  }
+}
+

@@ -1,0 +1,82 @@
+.navbar {
+  padding: 0rem 0rem 0rem !important;
+}
+.name_user {
+  margin-right: 1rem;
+  margin-left: 2rem;
+}
+
+.street_line {
+  width: 0.1rem;
+  height: 3.5rem;
+  background-color: #74777b;
+}
+/* Sidebar */
+.sidebar {
+  background-color: #333333;
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  padding: 5.8rem 0 0;
+  /* Height of navbar */
+  box-shadow: 0 0.2rem 0.5rem 0 rgb(0 0 0 / 5%), 0 0.2rem 1rem 0 rgb(0 0 0 / 5%);
+  width: 24rem;
+  height: 100vh;
+  z-index: 2;
+  transition: none !important;
+}
+.sidebar .list-group-item {
+  background-color: #333333;
+  cursor: pointer;
+}
+.sidebar span {
+  font-size: 1.6rem;
+  color: #fff;
+}
+.sidebar-sticky {
+  position: relative;
+  top: 0;
+  height: calc(100vh - 4.8rem);
+  padding-top: 0.5rem;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+main {
+  padding-bottom: 50vh;
+}
+
+.active {
+  font-size: 4rem;
+  padding: 1rem;
+  background-color: #2563eb;
+  color: #fff;
+  border-radius: 0.5rem;
+}
+.nonActive {
+  font-size: 4rem;
+  padding: 1rem;
+  background-color: #1b1d22;
+  border-radius: 0.5rem;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .name_user {
+    margin-left: 1rem;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+}
+
+@media (max-width: 991.98px) {
+  .sidebar {
+    width: 100%;
+  }
+}
+
+@media (min-width: 991.98px) {
+  main {
+    padding-left: 24rem;
+  }
+}

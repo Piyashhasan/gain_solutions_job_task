@@ -1,0 +1,84 @@
+.sidepanel {
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  height: 100vh;
+  top: 7.5%;
+  right: 0;
+  background-color: #fff;
+  overflow-x: hidden;
+  transition: 0.3s;
+  padding-top: 2rem;
+  border-radius: 0.5rem;
+}
+
+.sidepanel a {
+  text-decoration: none;
+  font-size: 2.5rem;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.sidepanel a:hover {
+  color: #000;
+}
+
+.sidepanel .closebtn {
+  position: absolute;
+  top: 0;
+  right: 2.5rem;
+  font-size: 3.6rem;
+}
+
+.openbtn {
+  font-size: 2rem;
+  cursor: pointer;
+  background-color: #111;
+  color: white;
+  padding: 1rem 1.5rem;
+  border: none;
+}
+
+.openbtn:hover {
+  background-color: #444;
+}
+
+.sidepanel h5 {
+  font-size: 1.8rem;
+  color: #1b2445;
+}
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .sidepanel {
+    top: 5rem;
+    right: 1rem;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .sidepanel {
+    top: 5rem;
+    right: 1rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px) {
+  .sidepanel {
+    top: 5rem;
+    right: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .sidepanel {
+    top: 5rem;
+    right: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1400px) {
+  .sidepanel {
+    top: 5rem;
+  }
+}

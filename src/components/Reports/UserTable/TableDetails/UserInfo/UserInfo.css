@@ -1,0 +1,102 @@
+.user_id p {
+  color: #2563eb;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+.user_id button {
+  background: #77828f;
+  color: #fff;
+  font-size: 1.2rem;
+}
+
+.user_date_value button {
+  background: #f5f6f8;
+}
+
+.user_date_value .common_no {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 2.7rem;
+}
+.user_date_value .noOne {
+  color: #2563eb;
+}
+
+.user_date_value .noTwo {
+  color: #2c5992;
+}
+
+.user_date_value .noThree {
+  color: #db700f;
+}
+
+.user_date_value .data_value {
+  font-size: 1.4rem;
+  color: #74777b;
+  text-transform: capitalize;
+}
+
+/* media query */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .user_id p {
+    font-size: 1.3rem;
+  }
+  .user_id button {
+    font-size: 1rem;
+  }
+
+  .user_date_value .common_no {
+    font-size: 1.4rem;
+  }
+  .user_date_value .data_value {
+    font-size: 1rem;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .user_id p {
+    font-size: 1.4rem;
+  }
+  .user_id button {
+    font-size: 1.2rem;
+  }
+
+  .user_date_value .common_no {
+    font-size: 1.5rem;
+  }
+  .user_date_value .data_value {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1023px) {
+  .user_id p {
+    font-size: 1.3rem;
+  }
+  .user_id button {
+    font-size: 1rem;
+  }
+  .user_date_value .common_no {
+    font-size: 1.4rem;
+  }
+  .user_date_value .data_value {
+    font-size: 1rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .user_id p {
+    font-size: 1.4rem;
+  }
+  .user_id button {
+    font-size: 1.2rem;
+  }
+  .user_date_value .common_no {
+    font-size: 1.5rem;
+  }
+  .user_date_value .data_value {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+}

@@ -1,0 +1,77 @@
+.input-icons {
+  width: 100%;
+  margin-bottom: 10rem;
+}
+
+.input-icons .search_icon {
+  position: absolute;
+  margin: 0 1rem;
+  font-size: 2rem;
+}
+
+.input-field {
+  width: 100%;
+  padding: 0.8rem 4rem;
+  outline: none;
+  border-radius: 0.5rem;
+  border: 0.1rem solid lightgray;
+}
+
+.modal_bottom_btn {
+  padding-bottom: 15rem;
+}
+
+.modal_content p {
+  font-size: 1.4rem;
+  color: #3e4868;
+}
+.modal_content .input-field {
+  font-size: 1.4rem;
+  color: #8e8e8e;
+}
+.modal_content .add_every_one p {
+  font-size: 1.4rem;
+  color: #1b2445;
+}
+.modal_content .all_user_list h5 {
+  font-size: 2.2rem;
+  color: #1b2445;
+}
+.modal_content .all_user_list small {
+  font-size: 1.4rem;
+  color: #1b2445;
+}
+
+.modal_bottom_btn button {
+  font-size: 1.4rem;
+  text-transform: capitalize;
+}
+
+/* media query */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .modal_content .all_user_list small {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .modal_content .all_user_list small {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .modal_content .all_user_list small {
+    font-size: 1.2rem;
+  }
+}
+@media only screen and (min-width: 980px) and (max-width: 1023px) {
+  .modal_content .all_user_list small {
+    font-size: 1.2rem;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .modal_content .all_user_list small {
+    font-size: 1.3rem;
+  }
+}

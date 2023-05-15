@@ -1,0 +1,26 @@
+.post h5 {
+  font-size: 2.8rem;
+  font-weight: 400;
+  line-height: 3.8rem;
+  color: #1b2445;
+}
+.post p {
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+  text-align: justify;
+  color: #3e4868;
+}
+.post_like_comment_share .like_comment_share_icon span,
+small {
+  cursor: pointer;
+}
+
+/* media query */
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .post h5 {
+    font-size: 2.5rem;
+  }
+  .post p {
+    font-size: 1.2rem;
+  }
+}

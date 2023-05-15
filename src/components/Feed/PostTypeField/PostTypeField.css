@@ -1,0 +1,67 @@
+.profile_img {
+  width: 5.5rem;
+  height: 5rem;
+  border-radius: 0.5rem;
+  margin-right: 1.5rem;
+}
+.post_field textarea {
+  border: none;
+  background-color: #f9f9f9;
+  font-size: 1.4rem;
+  line-height: 2.2rem;
+}
+
+.live_btn {
+  width: 7rem;
+  height: 3.2rem;
+  font-size: 1.2rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  background-color: #f4e5e6;
+  color: #950001;
+}
+.common_btn {
+  width: 3.2rem;
+  height: 3rem;
+  margin: 0 0.8rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+
+/* media query */
+
+@media only screen and (min-width: 320px) and (max-width: 479px) {
+  .postType_big_screen {
+    display: none;
+  }
+}
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+  .postType_big_screen {
+    display: none !important;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 979px) {
+  .postType_mobile_device {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 980px) and (max-width: 1023px) {
+  .postType_mobile_device {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1024px) and (max-width: 1199px) {
+  .postType_mobile_device {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .postType_mobile_device {
+    display: none;
+  }
+}
